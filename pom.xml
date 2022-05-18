@@ -17,7 +17,7 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
-
+    </dependencies>
 <!--  create the war -->
 <plugin>
   <artifactId>maven-war-plugin</artifactId>
@@ -25,5 +25,4 @@
     <webXml>webapp/WEB-INF/web.xml</webXml>
   </configuration>
 </plugin>
-    </dependencies>
 </project>
